@@ -3,7 +3,40 @@
 <html lang="en">
 <head>
     <title>Favorite Book Input</title>
+    <style>
+        .form {
+            margin: 15px;
+        }
+
+        #target-audience {
+            margin: 10px 0 10px 15px;
+        }
+
+        nav {
+            background-color: grey;
+            padding: 20px;
+        }   
+
+        a {
+            margin: 15px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: grey;
+            padding: 30px;
+        }
+
+        iframe {
+            margin-bottom: 20px;
+        }
+
+        body {
+            background-color: #b2ac88;
+        }
+    </style>
 </head>
+
 <body>
     <nav>
         <a href="#home">Home</a>
@@ -31,7 +64,7 @@
             </div>
 
             <div>
-                <label for="target">Target Audience:</label>
+                <label for="target" id="target-audience">Target Audience:</label>
                 
                 <div class="form">
                     <input type="radio" name="children">
@@ -64,9 +97,11 @@
                 <input type="text" name="name">
             </div>
 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" style="margin: 15px;">
         </form>
     </div>
+
+    <br /><hr /><br />
 
     <div>
         <p>Need some background noise while you read? I love this youtube video! 5 hours of soft music and ocean sounds.</p>
